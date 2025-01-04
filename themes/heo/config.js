@@ -19,7 +19,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与大数据行业知识',
+  HEO_HERO_TITLE_2: '与大数据',
   HEO_HERO_TITLE_3: 'Jin.ink',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
