@@ -85,7 +85,7 @@ const CONFIG = {
     {
       title_1: 'numpy',
       img_1: '/images/heo/numpy.webp',
-      color_1: '#eb6840',
+      color_1: '#ffffff',
       title_2: 'apache spark',
       img_2: '/images/heo/spark.webp',
       color_2: '#1d6890'
@@ -95,15 +95,15 @@ const CONFIG = {
       img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
       color_1: '#f29e39',
       title_2: 'apache spark',
-      img_2: '/images/heo/spark-bg.webp',
+      img_2: '/images/heo/spark.webp',
       color_2: '#2c51db'
     },
     {
       title_1: 'es',
       img_1: '/images/heo/es.webp',
       color_1: '#f7cb4f',
-      title_2: 'HTML',
-      img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
+      title_2: 'chatgpt',
+      img_2: '/images/heo/chatgpt.webp',
       color_2: '#e9572b'
     },
     {
