@@ -77,7 +77,7 @@ const CONFIG = {
     {
       title_1: 'java',
       img_1: '/images/heo/java.webp',
-      color_1: '#ffffff',
+      color_1: '#3a75b0',
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
       color_2: '#ffffff'
@@ -102,16 +102,24 @@ const CONFIG = {
       title_1: 'kafka',
       img_1: '/images/heo/kafka.webp',
       color_1: '#ffffff',
-      title_2: 'chatgpt',
-      img_2: '/images/heo/chatgpt.webp',
+      title_2: 'redis',
+      img_2: '/images/heo/redis.webp',
       color_2: '#ffffff'
     },
     {
-      title_1: 'numpy',
-      img_1: '/images/heo/numpy.webp',
+      title_1: 'debain',
+      img_1: '/images/heo/debian.webp',
       color_1: '#f29e39',
       title_2: 'arch',
       img_2: '/images/heo/arch.webp',
+      color_2: '#333333'
+    },
+    {
+      title_1: 'pandas',
+      img_1: '/images/heo/pandas.webp',
+      color_1: '#f29e39',
+      title_2: 'chatgpt',
+      img_2: '/images/heo/chatgpt.webp',
       color_2: '#333333'
     }
   ],
