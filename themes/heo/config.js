@@ -59,9 +59,9 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'apache flink',
-      img_1: '/images/heo/flink.webp',
-      color_1: '#716fca',
+      title_1: 'apache hadoop',
+      img_1: '/images/heo/hadoop.webp',
+      color_1: '#ffffff',
       title_2: 'apache hudi',
       img_2: '/images/heo/hudi.webp',
       color_2: '#ffffff'
@@ -70,49 +70,49 @@ const CONFIG = {
       title_1: 'Docker',
       img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
       color_1: '#57b6e6',
-      title_2: 'Photoshop',
-      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
+      title_2: 'k8s',
+      img_2: '/images/heo/k8s.webp',
       color_2: '#4082c3'
     },
     {
-      title_1: 'apache hive',
-      img_1: '/images/heo/hive.webp',
-      color_1: '#ffffff',
+      title_1: 'java',
+      img_1: '/images/heo/javac.webp',
+      color_1: '#3a75b0',
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
       color_2: '#ffffff'
     },
     {
-      title_1: 'numpy',
-      img_1: '/images/heo/numpy.webp',
-      color_1: '#ffffff',
+      title_1: 'apache flink',
+      img_1: '/images/heo/flink.webp',
+      color_1: '#716fca',
       title_2: 'apache spark',
       img_2: '/images/heo/spark.webp',
       color_2: '#1d6890'
     },
     {
-      title_1: 'illustrator',
-      img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
-      color_1: '#f29e39',
-      title_2: 'apache spark',
-      img_2: '/images/heo/spark.webp',
-      color_2: '#2c51db'
+      title_1: 'apache hive',
+      img_1: '/images/heo/hive.webp',
+      color_1: '#ffffff',
+      title_2: 'apache doris',
+      img_2: '/images/heo/doris.webp',
+      color_2: '#ffffff'
     },
     {
-      title_1: 'es',
-      img_1: '/images/heo/es.webp',
-      color_1: '#f7cb4f',
+      title_1: 'kafka',
+      img_1: '/images/heo/kafka.webp',
+      color_1: '#fffff',
       title_2: 'chatgpt',
       img_2: '/images/heo/chatgpt.webp',
-      color_2: '#e9572b'
+      color_2: '#ffffff'
     },
     {
-      title_1: 'Git',
-      img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
-      color_1: '#df5b40',
-      title_2: 'Rhino',
-      img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
-      color_2: '#1f1f1f'
+      title_1: 'numpy',
+      img_1: '/images/heo/numpy.webp',
+      color_1: '#f29e39',
+      title_2: 'arch',
+      img_2: '/images/heo/arch.webp',
+      color_2: '#333333'
     }
   ],
 
