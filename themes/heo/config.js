@@ -19,11 +19,11 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'jin.ink',
+  HEO_HERO_TITLE_2: '与大数据行业知识',
+  HEO_HERO_TITLE_3: 'Jin.ink',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_LINK: 'https://jin.ink',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
@@ -77,7 +77,7 @@ const CONFIG = {
     {
       title_1: 'java',
       img_1: '/images/heo/javac.webp',
-      color_1: '#3a75b0',
+      color_1: '#ffffff',
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
       color_2: '#ffffff'
