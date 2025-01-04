@@ -120,7 +120,7 @@ const CONFIG = {
       color_1: '#130654',
       title_2: 'chatgpt',
       img_2: '/images/heo/chatgpt.webp',
-      color_2: '#333333'
+      color_2: '#ffffff'
     }
   ],
 
