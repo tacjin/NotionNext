@@ -109,7 +109,7 @@ const CONFIG = {
     {
       title_1: 'debain',
       img_1: '/images/heo/debian.webp',
-      color_1: '#f29e39',
+      color_1: '#ffffff',
       title_2: 'arch',
       img_2: '/images/heo/arch.webp',
       color_2: '#333333'
@@ -117,7 +117,7 @@ const CONFIG = {
     {
       title_1: 'pandas',
       img_1: '/images/heo/pandas.webp',
-      color_1: '#f29e39',
+      color_1: '#130654',
       title_2: 'chatgpt',
       img_2: '/images/heo/chatgpt.webp',
       color_2: '#333333'
