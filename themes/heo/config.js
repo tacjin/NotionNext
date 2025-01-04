@@ -76,7 +76,7 @@ const CONFIG = {
     },
     {
       title_1: 'java',
-      img_1: '/images/heo/javac.webp',
+      img_1: '/images/heo/java.webp',
       color_1: '#ffffff',
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
