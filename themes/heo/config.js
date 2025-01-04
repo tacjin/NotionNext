@@ -21,8 +21,8 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与大数据',
   HEO_HERO_TITLE_3: 'Jin.ink',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_4: '三省吾身',
+  HEO_HERO_TITLE_5: '靡不有初，鲜克有终',
   HEO_HERO_TITLE_LINK: 'https://jin.ink',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
