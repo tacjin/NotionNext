@@ -101,7 +101,7 @@ const CONFIG = {
     {
       title_1: 'kafka',
       img_1: '/images/heo/kafka.webp',
-      color_1: '#fffff',
+      color_1: '#ffffff',
       title_2: 'chatgpt',
       img_2: '/images/heo/chatgpt.webp',
       color_2: '#ffffff'
