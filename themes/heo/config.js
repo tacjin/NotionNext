@@ -88,7 +88,7 @@ const CONFIG = {
       color_1: '#eb6840',
       title_2: 'apache spark',
       img_2: '/images/heo/spark.webp',
-      color_2: '#8f55ba'
+      color_2: '#1d6890'
     },
     {
       title_1: 'illustrator',
