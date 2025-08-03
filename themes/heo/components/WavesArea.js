@@ -36,18 +36,18 @@ export default function WavesArea() {
 
   return (
     <section className='main-hero-waves-area waves-area w-full absolute left-0 z-10 bottom-0'>
-      <svg
-        className='waves-svg w-full h-[60px]'
-        xmlns='http://www.w3.org/2000/svg'
-        xlink='http://www.w3.org/1999/xlink'
-        viewBox='0 24 150 28'
-        preserveAspectRatio='none'
-        shapeRendering='auto'>
-        <defs>
-          <path
-            id='gentle-wave'
-            d='M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z'></path>
-        </defs>
+    <svg
+      className='waves-svg w-full h-[30px]'  // 高度从 60px 改为 30px
+      xmlns='http://www.w3.org/2000/svg'
+      xlink='http://www.w3.org/1999/xlink'
+      viewBox='0 20 150 20'  // 原为 0 24 150 28
+      preserveAspectRatio='none'
+      shapeRendering='auto'>
+      <defs>
+        <path
+          id='gentle-wave'
+          d='M -160 44 c 30 0 58 -10 88 -10 s 58 10 88 10 s 58 -10 88 -10 s 58 10 88 10 v 44 h -352 Z' />
+      </defs>
         <g className='parallax'>
           <use href='#gentle-wave' x='48' y='0'></use>
           <use href='#gentle-wave' x='48' y='3'></use>
