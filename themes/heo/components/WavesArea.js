@@ -37,7 +37,7 @@ export default function WavesArea() {
   return (
     <section className='main-hero-waves-area waves-area w-full absolute left-0 z-10 bottom-0'>
     <svg
-      className='waves-svg w-full h-[30px]'  // 高度从 60px 改为 30px
+      className='waves-svg w-full h-[25px]'  // 高度从 60px 改为 30px
       xmlns='http://www.w3.org/2000/svg'
       xlink='http://www.w3.org/1999/xlink'
       viewBox='0 20 150 20'  // 原为 0 24 150 28
