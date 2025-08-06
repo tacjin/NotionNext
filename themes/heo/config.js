@@ -22,8 +22,8 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与大数据',
   HEO_HERO_TITLE_3: 'Jin.wiki',
-  HEO_HERO_TITLE_4: '三省吾身',
-  HEO_HERO_TITLE_5: '靡不有初，鲜克有终',
+  HEO_HERO_TITLE_4: '准备好了么',
+  HEO_HERO_TITLE_5: '最美好的风景永远在路上',
   HEO_HERO_TITLE_LINK: 'https://jin.wiki',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
@@ -54,7 +54,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_URL3: 'https://www.jin.wiki',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
