@@ -15,6 +15,10 @@
   font-weight: 500; /* 可以改为 600 更粗 */
 }
 
+#today-card-info > div.flex.flex-col > div.text-xs.font-light {
+  font-weight: 480; /* 可以改为 600 更粗 */
+}
+
 .notion {
   font-size: 0.95rem;       /* 略缩字体，提升密度 */
   line-height: 1.25;         /* 默认约为 1.75，调小更紧凑 */
