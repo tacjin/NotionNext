@@ -8,9 +8,11 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的技术笔记网站', url: 'https://jin.wiki' }
+    { title: '欢迎来到我的技术笔记网站 Jin知库', url: 'https://jin.wiki' }
     ,{ title: '祝您一切都好', url: 'https://jin.wiki' }
-    //,{ title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    ,{ title: 'Jin随笔 — Ink for Life, visit \'https://jin.ink\'', url: 'https://jin.ink' }
+    ,{ title: 'Jin知库 — Code, Cloud & Concepts, visit \'https://jin.wiki\'', url: 'https://jin.wiki' }
+    ,{ title: '慧眼识光 — Huiyan Moments, visit \'https://huiyan.me\'', url: 'https://huiyan.me' }
   ],
 
   // 英雄区左右侧组件颠倒位置
