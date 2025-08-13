@@ -9,10 +9,10 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到我的技术笔记网站', url: '#' }
-    ,{ title: '当前站点：Jin知库 - Code, Cloud & Concepts https://jin.wiki', url: '#' }
-    ,{ title: '祝您一切都好，更多精彩准备中', url: '#' }
-    ,{ title: 'Jin随笔 - Ink for life, 点击访问 https://jin.ink', url: 'https://jin.ink' }
-    ,{ title: '慧眼识光 - Huiyan Moments, 点击访问 https://huiyan.me', url: 'https://huiyan.me' }
+    ,{ title: '当前站点：Jin知库,https://jin.wiki', url: '#' }
+    ,{ title: '祝您一切都好,更多精彩准备中', url: '#' }
+    ,{ title: 'Jin随笔,访问 https://jin.ink', url: 'https://jin.ink' }
+    ,{ title: '慧眼识光,访问 https://huiyan.me', url: 'https://huiyan.me' }
   ],
 
   // 英雄区左右侧组件颠倒位置
