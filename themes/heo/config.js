@@ -10,7 +10,7 @@ const CONFIG = {
   HEO_NOTICE_BAR: [
     { title: '欢迎来到我的技术笔记页面', url: '#' }
     ,{ title: '祝您一切都好，更多精彩准备中', url: '#' }
-    ,{ title: 'You’re viewing Jin知库 - Code, Cloud & Concepts https://jin.wiki，one more thing', url: 'https://jin.wiki' }
+    ,{ title: 'You’re viewing Jin知库 - Code, Cloud & Concepts https://jin.wiki', url: 'https://jin.wiki' }
     ,{ title: 'Jin随笔 - Ink for life, click to visit https://jin.ink', url: 'https://jin.ink' }
     ,{ title: '慧眼识光 - Huiyan Moments, click to visit https://huiyan.me', url: 'https://huiyan.me' }
   ],
