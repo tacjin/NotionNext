@@ -6,3 +6,23 @@
 .fa-info:before {
     content: "\f05a";
 }
+
+#nav-mobile > div {
+  font-weight: 500;
+}
+
+#container > div > article > div > div.\32 xl\:p-4.\32 xl\:h-48.\32 xl\:w-full.flex.p-6.flex-col.justify-between.h-48.md\:h-full.w-full.md\:w-7\/12 > main {
+  font-weight: 460; /* 可以改为 600 更粗 */
+}
+
+#today-card-info > div.flex.flex-col > div.text-xs.font-light {
+  font-weight: 460; /* 可以改为 600 更粗 */
+}
+
+.notion {
+  font-size: 0.95rem;       /* 略缩字体，提升密度 */
+  line-height: 1.25;         /* 默认约为 1.75，调小更紧凑 */
+  font-weight: 450;         /* 默认400，500略加粗提升阅读感 */
+  letter-spacing: 0.01em;   /* 稍微疏松字符间距，防止拥挤 */
+  color: #222;              /* 提高字体对比度，更好识别 */
+}
