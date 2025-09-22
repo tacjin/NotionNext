@@ -11,7 +11,7 @@ const CONFIG = {
     { title: '欢迎来到我的技术笔记网站', url: '#' }
     ,{ title: '当前站点：Jin知库,https://jin.wiki', url: '#' }
     ,{ title: '祝您一切都好,更多精彩准备中', url: '#' }
-    ,{ title: 'Jin随笔,访问 https://jin.ink', url: 'https://jin.ink' }
+    ,{ title: '近墨者,访问 https://jin.ink', url: 'https://jin.ink' }
     ,{ title: '慧眼识光,访问 https://huiyan.me', url: 'https://huiyan.me' }
   ],
 
@@ -23,9 +23,9 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与大数据',
-  HEO_HERO_TITLE_3: 'Jin.wiki',
-  HEO_HERO_TITLE_4: '准备好了么',
-  HEO_HERO_TITLE_5: '最美好的风景永远在路上',
+  HEO_HERO_TITLE_3: '-- tacjin',
+  HEO_HERO_TITLE_4: 'Jin.wiki',
+  HEO_HERO_TITLE_5: '精诚所至，金石为开',
   HEO_HERO_TITLE_LINK: 'https://jin.wiki',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
@@ -42,9 +42,7 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
+    '你好！我是tacjin，我是',
     '🏃 脚踏实地行动派',
     '🏠 智能家居小能手',
     '🤖️ 数码科技爱好者',
@@ -54,7 +52,7 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_URL2: '#',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_URL3: 'https://www.jin.wiki',
   HEO_INFO_CARD_TEXT3: '了解更多',
@@ -131,7 +129,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_URL: '#',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
