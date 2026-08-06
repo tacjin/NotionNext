@@ -388,7 +388,7 @@ const Style = () => {
 
       .claude-sidebar-profile {
         --width-limit:  min(100%, 320px);
-        max-width: --width-limit;
+        max-width: var(--width-limit);
         margin-left: max(
           0px,
           calc((100% - var(--width-limit))) / 2)
@@ -2645,6 +2645,201 @@ const Style = () => {
         padding-left: 0.75rem;
         padding-right: 0.75rem;
         text-align: center;
+      }
+
+      /* ========================================
+       * REFINED DOCUMENT EXPERIENCE
+       * Keeps Claude's NotionNext data/layout logic intact.
+       * ======================================== */
+      #theme-claude.claude-page-subpage #container-inner {
+        max-width: 980px;
+      }
+      #theme-claude .claude-sidebar-profile {
+        gap: 0.75rem;
+      }
+      #theme-claude .claude-profile-avatar {
+        border-radius: 1.25rem;
+        border-width: 1px;
+        box-shadow: 0 10px 28px rgb(68 52 40 / 0.08);
+      }
+      .dark #theme-claude .claude-profile-avatar {
+        box-shadow: 0 10px 32px rgb(0 0 0 / 0.3);
+      }
+      #theme-claude .claude-profile-name {
+        font-family: var(--claude-heading-font);
+        font-weight: 400;
+        letter-spacing: -0.025em;
+      }
+      #theme-claude .claude-profile-bio {
+        height: auto;
+        min-height: 24px;
+        color: var(--claude-text-secondary);
+        line-height: 1.65;
+      }
+      #theme-claude .claude-profile-nav-section .claude-nav-link {
+        padding: 0.42rem 0.55rem;
+        border-radius: 0.5rem;
+      }
+      #theme-claude .claude-profile-nav-section .claude-nav-link:hover {
+        background: var(--claude-sidebar-active-bg);
+      }
+      #theme-claude .claude-terminal {
+        border-radius: 0.75rem;
+        box-shadow: 0 8px 22px rgb(40 35 30 / 0.06);
+      }
+      .dark #theme-claude .claude-terminal {
+        box-shadow: 0 8px 24px rgb(0 0 0 / 0.22);
+      }
+      #theme-claude .blog-item-title {
+        font-family: var(--claude-heading-font);
+        font-weight: 400 !important;
+        letter-spacing: -0.035em;
+        line-height: 1.18;
+      }
+      #theme-claude #article-wrapper {
+        max-width: 780px;
+      }
+      #theme-claude #article-wrapper .notion-text {
+        color: var(--claude-text-secondary);
+        font-size: 1rem;
+        line-height: 1.9;
+      }
+      #theme-claude #article-wrapper .notion-h1,
+      #theme-claude #article-wrapper .notion-h2,
+      #theme-claude #article-wrapper .notion-h3 {
+        scroll-margin-top: 2rem;
+      }
+      #theme-claude #article-wrapper .notion-h2 {
+        padding-top: 0.35rem;
+      }
+      #theme-claude .claude-article-item {
+        padding: 1.15rem 1.25rem;
+        margin-bottom: 0.75rem;
+        border: 1px solid var(--claude-border);
+        border-radius: 0.75rem;
+        background: var(--claude-bg);
+      }
+      #theme-claude .claude-article-item:hover {
+        border-color: color-mix(in srgb, var(--claude-accent) 45%, var(--claude-border));
+        box-shadow: 0 10px 28px rgb(60 48 38 / 0.06);
+      }
+      .dark #theme-claude .claude-article-item:hover {
+        box-shadow: 0 10px 30px rgb(0 0 0 / 0.2);
+      }
+      #theme-claude .claude-toc-sidebar {
+        border-left: 1px solid var(--claude-border);
+        background: var(--claude-bg);
+      }
+      #theme-claude .catalog-wrapper {
+        width: 100%;
+        position: sticky;
+        top: 3.5rem;
+      }
+      #theme-claude .toc-item {
+        padding: 0.25rem 0.6rem;
+        border-left: 1px solid var(--claude-border);
+      }
+      #theme-claude .toc-item.toc-active,
+      #theme-claude .toc-item.toc-highlighted {
+        border-left: 2px solid var(--claude-accent);
+        background: var(--claude-sidebar-active-bg);
+      }
+      .dark #theme-claude,
+      html[data-theme='dark'] #theme-claude,
+      .dark #theme-claude #container-inner,
+      html[data-theme='dark'] #theme-claude #container-inner {
+        background: var(--claude-bg) !important;
+        color: var(--claude-text-primary) !important;
+      }
+      .dark #theme-claude .claude-sidebar,
+      html[data-theme='dark'] #theme-claude .claude-sidebar {
+        background: var(--claude-sidebar-bg) !important;
+        border-color: var(--claude-border) !important;
+      }
+      .dark #theme-claude .claude-toc-sidebar,
+      html[data-theme='dark'] #theme-claude .claude-toc-sidebar {
+        background: var(--claude-bg) !important;
+        border-color: var(--claude-border) !important;
+      }
+      .dark #theme-claude #article-wrapper .notion-text,
+      html[data-theme='dark'] #theme-claude #article-wrapper .notion-text {
+        color: var(--claude-text-secondary) !important;
+      }
+      #theme-claude a:focus-visible,
+      #theme-claude button:focus-visible,
+      #theme-claude input:focus-visible {
+        outline: 2px solid var(--claude-accent);
+        outline-offset: 3px;
+        border-radius: 0.375rem;
+      }
+      #theme-claude #article-wrapper img {
+        border-radius: 0.75rem;
+        border: 1px solid var(--claude-border);
+      }
+      #theme-claude #article-wrapper .notion-quote {
+        border-radius: 0 0.625rem 0.625rem 0;
+      }
+      #theme-claude #article-wrapper .notion-callout {
+        border-radius: 0.75rem;
+        border-color: var(--claude-border);
+      }
+      #theme-claude #article-wrapper .notion-table-view {
+        border-radius: 0.625rem;
+        overflow-x: auto;
+      }
+      #theme-claude #article-wrapper .notion-bookmark {
+        border-radius: 0.75rem;
+        border-color: var(--claude-border);
+        overflow: hidden;
+      }
+      #theme-claude #article-wrapper hr {
+        border-color: var(--claude-border) !important;
+        margin: 2.25rem 0 !important;
+      }
+      #theme-claude .claude-mobile-nav {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        margin: 0 -0.75rem 1rem;
+        padding: 0.75rem !important;
+        border-bottom: 1px solid var(--claude-border);
+        background: color-mix(in srgb, var(--claude-bg) 92%, transparent);
+        backdrop-filter: blur(12px);
+      }
+      #theme-claude .claude-mobile-nav .claude-site-title {
+        font-size: 1.2rem;
+      }
+      #theme-claude .claude-mobile-nav .claude-nav-link {
+        min-height: 2.5rem;
+      }
+
+      @media (max-width: 1023px) {
+        #theme-claude.claude-page-subpage #container-inner {
+          max-width: 860px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        #theme-claude #container-inner {
+          padding-left: 1.125rem;
+          padding-right: 1.125rem;
+        }
+        #theme-claude .blog-item-title {
+          font-size: 2rem !important;
+          line-height: 1.22;
+        }
+        #theme-claude #article-wrapper .notion-text {
+          font-size: 0.95rem;
+          line-height: 1.82;
+        }
+        #theme-claude .claude-article-item {
+          padding: 1rem;
+          border-radius: 0.625rem;
+        }
+        #theme-claude #article-wrapper .notion-code,
+        #theme-claude #article-wrapper pre[class*='language-'] {
+          border-radius: 0.625rem !important;
+        }
       }
 
       /* Disable transitions only during color-mode switching */
