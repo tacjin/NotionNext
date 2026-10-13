@@ -122,11 +122,12 @@ const LayoutBase = props => {
         <div className='flex flex-1 overflow-hidden' style={{ height: '100vh' }}>
           {/* ====== LEFT SIDEBAR — 导航栏 (桌面端) ====== */}
           {/* 使用 SidebarContent (React.memo) 避免客户端导航时重新加载侧边栏 */}
-          <div
+          <aside
+            aria-label='站点导航'
             className='claude-sidebar hidden md:flex md:flex-col md:flex-shrink-0 md:w-[296px] lg:w-[320px] overflow-y-auto overflow-x-hidden'
             style={{ height: '100%' }}>
             <SidebarContent customNav={props.customNav} customMenu={props.customMenu} />
-          </div>
+          </aside>
 
           {/* ====== CENTER — 主内容区 ====== */}
           <div className='flex-1 overflow-hidden flex justify-center'>
@@ -136,7 +137,7 @@ const LayoutBase = props => {
               style={{ height: '100%' }}>
 
               {/* 移动端导航 */}
-              <div className='md:hidden pt-4'>
+              <div className='claude-mobile-nav md:hidden pt-4'>
                 <NavBar {...props} />
               </div>
 
@@ -162,11 +163,12 @@ const LayoutBase = props => {
 
           {/* ====== RIGHT SIDEBAR — 目录 (桌面端，仅文章页) ====== */}
           {tocEnable && hasToc && (
-            <div
-              className='hidden lg:flex lg:flex-col lg:flex-shrink-0 lg:w-[240px] overflow-hidden pt-16 pr-8 pl-2'
+            <aside
+              aria-label='文章目录'
+              className='claude-toc-sidebar hidden lg:flex lg:flex-col lg:flex-shrink-0 lg:w-[260px] 2xl:w-[300px] overflow-hidden pt-14 pr-8 pl-4'
               style={{ height: '100%' }}>
               <Catalog post={props.post} />
-            </div>
+            </aside>
           )}
         </div>
 
